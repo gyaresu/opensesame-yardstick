@@ -8,9 +8,9 @@ def makeKey(key):
     pwm_str_key = ""
     for k in key:
         x = "*"
-        if(k == "0"):
-            x = "1110"
         if(k == "1"):
+            x = "1110"
+        if(k == "0"):
             x = "1000"
         if(k == "x"):
             x = "0000"
