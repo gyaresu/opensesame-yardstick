@@ -9,7 +9,6 @@ init(r)
 db = d(2,10)
 key = m(db)
 
-r.setMdmDRate(4000)
 r.RFxmit(key)
 
 
