@@ -6,7 +6,7 @@ from yardstick import init as init
 r = RfCat()
 init(r)
 
-db = d(2,10)
+db = d(2,9)
 key = m(db)
 
 r.RFxmit(key)
