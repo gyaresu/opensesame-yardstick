@@ -1,8 +1,9 @@
 import bitstring
 
 
-def makeKey(key):
-    """Return packet string: 110 for '1' and 100 for '0' """
+def makeKey(key, state):
+    """Return packet string: 110 for '1' and 100 for '0'
+    Deal with binary / trinary dip switch state."""
     if(key[0:1] == "1"):
         key = "1" + key
     pwm_str_key = ""
